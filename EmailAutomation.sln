@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailAutomation.Service", "EmailAutomation.Service\EmailAutomation.Service.csproj", "{4DDA2B1F-4F8D-4C1A-98E6-71617612F64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailAutomation.Core", "EmailAutomation.Core\EmailAutomation.Core.csproj", "{0F797EA7-D270-42ED-B390-F985ACB27B8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailAutomation.Common", "EmailAutomation.Common\EmailAutomation.Common.csproj", "{03486CFF-A9AB-4E24-BA63-66525E18D9A3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DDA2B1F-4F8D-4C1A-98E6-71617612F64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDA2B1F-4F8D-4C1A-98E6-71617612F64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDA2B1F-4F8D-4C1A-98E6-71617612F64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDA2B1F-4F8D-4C1A-98E6-71617612F64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F797EA7-D270-42ED-B390-F985ACB27B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F797EA7-D270-42ED-B390-F985ACB27B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F797EA7-D270-42ED-B390-F985ACB27B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F797EA7-D270-42ED-B390-F985ACB27B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03486CFF-A9AB-4E24-BA63-66525E18D9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03486CFF-A9AB-4E24-BA63-66525E18D9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03486CFF-A9AB-4E24-BA63-66525E18D9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03486CFF-A9AB-4E24-BA63-66525E18D9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
